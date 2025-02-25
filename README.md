@@ -1,1 +1,3 @@
-# Alignment-Potential-Metric
+- `evol_instruct.py`: evolve prompts given a dataset
+- `gen_pair_data.py` & `merge_gen_annotate.py`: generate response data and annotate with reward model
+- `process_dataset.py`: select dataset subsets with metrics
