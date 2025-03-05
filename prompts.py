@@ -64,4 +64,4 @@ evolve_strategies: List[Mapping[str, str]] = [createBreadthPrompt, createDeepenP
 
 if __name__ == '__main__':
 	for s in evolve_strategies:
-		print(s("我是丁真"))
+		print(s("PROMPT HERE"))
