@@ -4,7 +4,7 @@ import numpy as np
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataset", type=str, default="processed_datasets/llama-3-8b-instruct-v2-example")
+parser.add_argument("--dataset", type=str, default="SimPO/processed_datasets/llama-3-8b-instruct-v2")
 parser.add_argument("--save_to", type=str, default="")
 parser.add_argument("--metric", type=str, default="rm-logp", choices=["rand", "rm_margin", "logp_margin_norm_abs", "rm-logp", "rm-xlogp"])
 parser.add_argument("--logp_weight", type=float, default=1.0)
