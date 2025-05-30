@@ -168,7 +168,7 @@ def main():
     )
     raw_train_dataset = raw_dataset['train']
     # # test on small dataset
-    raw_train_dataset = raw_train_dataset.select(list(range(100)))
+    # raw_train_dataset = raw_train_dataset.select(list(range(100)))
 
     ################################
     # add reward margin column & idx
