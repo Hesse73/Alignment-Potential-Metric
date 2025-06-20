@@ -47,7 +47,7 @@ Please cite our work if you find it helpful!
 ```bibtex
 @inproceedings{
   huang2025larger,
-  title={Larger or Smaller Reward Margins to Select Preferences for {LLM} Alignment?},
+  title={Larger or Smaller Reward Margins to Select Preferences for LLM Alignment?},
   author={Kexin Huang and Junkang Wu and Ziqian Chen and Xue Wang and Jinyang Gao and Bolin Ding and Jiancan Wu and Xiangnan He and Xiang Wang},
   booktitle={Forty-second International Conference on Machine Learning},
   year={2025},
